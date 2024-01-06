@@ -9,7 +9,8 @@ app = Flask(__name__)
 
 CREATE_STUDENT_TABLE = (
     "CREATE TABLE IF NOT EXISTS Students (Email varchar,Phone_no bigint,name varchar,class varchar,board varchar,school varchar,DOB date,password varchar);"
-)
+) 
+
 
 INSERT_STUDENT = "INSERT INTO Students (Email,Phone_no,name,class,board,school,DOB,password) VALUES (%s,%s,%s,%s,%s,%s,%s,%s);"
 
